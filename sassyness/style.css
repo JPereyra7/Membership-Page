@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "League Spartan", system-ui, sans-serif;
+  height: 100%;
+  min-height: 100vh;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  background-color: #181818;
+  color: #ddd;
+  background-image: url(/img/mainnet-fbad3338fed984017713102896a426df.png);
+}
+
+ul {
+  list-style: circle;
+}
+
+.card {
+  border: 1px solid rgba(236, 239, 241, 0.2);
+  border-radius: 15px;
+}
+
+.card_heading {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.card__bullet {
+  line-height: 1.4;
+}
+
+.cards_inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  margin-top: 5rem;
+}
+
+.main {
+  max-width: 75rem;
+  padding: 3em 4.5em;
+}
+
+.main_heading {
+  font-weight: 600;
+  font-size: 2.25em;
+  margin-top: 2rem;
+  text-align: center;
+  color: #eceff1;
+}
+
+.cta {
+  display: block;
+  align-self: end;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0d0d0d;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cta:hover {
+  background-color: #dac687;
+}
+
+.card {
+  display: grid;
+  border: 1px solid rgba(236, 239, 241, 0.2);
+  border-radius: 15px;
+  color: #eceff1;
+  background-color: rgba(18, 18, 18, 0.8392156863);
+  gap: 1.25em;
+  align-items: start;
+  grid-template-rows: auto auto auto 1fr;
+  flex: 1 1 14rem;
+  padding: 1.5em 2em;
+}
+
+.card_price {
+  font-size: 1.75em;
+  font-weight: 700;
+  color: #dac687;
+}
+.card_price:hover {
+  color: #f1e0a5;
+  text-shadow: 0 0 5px #dac687, 0 0 25px #dac687, 0 0 50px #dac687, 0 0 100px #dac687;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background: rgba(18, 18, 18, 0.8392156863);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #dac687, 0 0 25px #dac687, 0 0 50px #dac687, 0 0 100px #dac687;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */
