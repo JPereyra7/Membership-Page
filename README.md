@@ -3,4 +3,4 @@ I created a membership page where the user can choose a subscription. This is ma
 
 Enjoy!
 
-![alt text](http://"C:\Users\octav\OneDrive\Bilder\Skärmbilder\Skärmbild 2023-10-21 013457.png")
+![Model]()
